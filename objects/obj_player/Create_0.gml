@@ -6,6 +6,9 @@ velv = 0;
 vel = 4;
 grav = .3;
 vel_jump = 7;
+key = false;
+posX = obj_player.x;
+posY = obj_player.y;
 
 dano = false;
 tempo_dano = room_speed * 1;

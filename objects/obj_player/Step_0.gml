@@ -116,7 +116,10 @@ if (_inimigo && inv_timer <=0)
 }
 
 var _col = instance_place(x + velh, y, obj_fim);
-if (_col)
-{
-game_restart();
+if (_col && obj_jogo.key == true) {
+	game_restart();
+} else {
+	draw_text(obj_player.posX, obj_player.posY + 50,"Sem chaves...");
 }
+	
+	
