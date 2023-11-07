@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "Tile_level",
+  "name": "Tile_background",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -16,8 +16,8 @@
     "path": "folders/Conjuntos de tiles.yy",
   },
   "spriteId": {
-    "name": "spr_brick",
-    "path": "sprites/spr_brick/spr_brick.yy",
+    "name": "spr_fundo",
+    "path": "sprites/spr_fundo/spr_fundo.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {
