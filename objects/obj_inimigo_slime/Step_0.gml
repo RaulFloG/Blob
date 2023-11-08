@@ -3,7 +3,7 @@
 
 if (morto)
 {
-	sprite_index = spr_inimigo_slime_dead;
+	sprite_index = spr_new_inimigo_slime_dead;
 	
 	//sumindo se acabou a minha animação
 	if (image_speed <=0)
@@ -48,12 +48,12 @@ if (_chao)
 	//controlando a animação do inimigo
 	if (velh != 0 && dano == false)
 	{
-		sprite_index = spr_inimigo_slime_run;
+		sprite_index = spr_new_inimigo_slime_run;
 		image_xscale = sign(velh);
 	}
 	else
 	{
-		sprite_index = spr_inimigo_slime_idle;
+		sprite_index = spr_new_inimigo_slime_idle;
 	}
 	
 	//se eu bater na parede, eu mudo de direção
@@ -89,6 +89,6 @@ else
 //chegando se eu estou tomando dano
 if (dano && morto == false)
 {
-	sprite_index = spr_inimigo_slime_hurt;
+	sprite_index = spr_new_inimigo_slime_hurt;
 	velh =0;
 }
