@@ -46,6 +46,8 @@
     {"id":{"name":"fnt_gui","path":"fonts/fnt_gui/fnt_gui.yy",},},
     {"id":{"name":"obj_inimigo_slime","path":"objects/obj_inimigo_slime/obj_inimigo_slime.yy",},},
     {"id":{"name":"obj_entidade","path":"objects/obj_entidade/obj_entidade.yy",},},
+    {"id":{"name":"EndRoom","path":"rooms/EndRoom/EndRoom.yy",},},
+    {"id":{"name":"Scene1","path":"rooms/Scene1/Scene1.yy",},},
     {"id":{"name":"spr_player_hurt","path":"sprites/spr_player_hurt/spr_player_hurt.yy",},},
     {"id":{"name":"obj_inicio","path":"objects/obj_inicio/obj_inicio.yy",},},
     {"id":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},},
@@ -57,6 +59,7 @@
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},},
     {"id":{"name":"Tile_background","path":"tilesets/Tile_background/Tile_background.yy",},},
     {"id":{"name":"obj_fim","path":"objects/obj_fim/obj_fim.yy",},},
+    {"id":{"name":"spr_fimb","path":"sprites/spr_fimb/spr_fimb.yy",},},
     {"id":{"name":"spr_brick","path":"sprites/spr_brick/spr_brick.yy",},},
     {"id":{"name":"spr_new_inimigo_slime_idle","path":"sprites/spr_new_inimigo_slime_idle/spr_new_inimigo_slime_idle.yy",},},
     {"id":{"name":"spr_inimigo_slime_hurt","path":"sprites/spr_inimigo_slime_hurt/spr_inimigo_slime_hurt.yy",},},
@@ -73,6 +76,7 @@
     {"id":{"name":"spr_inimigo_slime_run","path":"sprites/spr_inimigo_slime_run/spr_inimigo_slime_run.yy",},},
     {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"id":{"name":"obj_fimb","path":"objects/obj_fimb/obj_fimb.yy",},},
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},},
     {"id":{"name":"snd_main_theme","path":"sounds/snd_main_theme/snd_main_theme.yy",},},
     {"id":{"name":"Scene","path":"rooms/Scene/Scene.yy",},},
@@ -80,6 +84,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"Scene","path":"rooms/Scene/Scene.yy",},},
+    {"roomId":{"name":"Scene1","path":"rooms/Scene1/Scene1.yy",},},
+    {"roomId":{"name":"EndRoom","path":"rooms/EndRoom/EndRoom.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
